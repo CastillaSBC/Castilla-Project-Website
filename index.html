@@ -2,107 +2,97 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Castilla - Open Source better.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Castilla - Truly open</title>
+    <!-- Pico.css -->
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css" />
   </head>
   <body>
-    <div class="container">
-      <nav>
-        <ul>
-          <li><strong>Castilla</strong></li>
-        </ul>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Project</a></li>
-          <li><a href="#">License</a></li>
-        </ul>
-      </nav>
-    </div>
+    <nav class="container-fluid">
+      <ul>
+        <li>
+          <a href="./" class="contrast" onclick="event.preventDefault()"><strong>Castilla</strong></a>
+        </li>
+      </ul>
+      <ul>
+        <li><a href="#" class="contrast">Home</a></li>
+        <li><a href="#" class="">Project Information</a></li>
+        <li><a href="#" class="">License</a></li>
+      </ul>
+    </nav>
+    <!-- ./ Nav -->
 
     <main class="container">
       <article>
-        <h1>The open source solution for your community.</h1>
-        <p>Say goodbye to the hassle of relying on insecure sources like <kbd>Bopimo </kbd> or <kbd>Vertineer</kbd> , they're unmaintained and <strong> Leaks </strong>.</p>
-        <p>Castilla is the open source solution for your sandbox community needs. With builtin state-of-the-art security and an easy set up, we're here for you.</p>
-        <img src="" />
-        <details>
-          <summary>What databases does Castilla support?</summary>
-          <p>Castilla supports 3 Database paragidms, <strong>NoSQL, SQL an Flat </strong>. Which in popular names are: MongoDB & Similar, MysQL / MariaDB, Postgre and SQLITE</p>
-        </details>
-        <details>
-          <summary>Can I just host this?</summary>
-          <p><strong> You can! </strong> but with a catch! This is <strong> Open Source Software</strong> which means I, (the creator and maintainer of the project) make 0$ out of it. Thus the only condition of this is that you leave the footer that links to the project. All of what has been mentioned goes into the <a>License </a></p>
-        </details>
-        <details>
-          <summary>How fast is this?</summary>
-          <p>Stupidly fast enough to handle large ammounts of requests with ease. During development I made sure the code was escalable, and it is.</p>
-        </details>
-        <details>
-          <summary>What different ways of hosting are there?</summary>
-          <p>Castilla supports quite a few hosting methods, from cloud to bare metal, we give native support.</p>
-          <table>
-            <thead>
-              <tr>
-                <th scope="col">Hosting Type</th>
-                <th scope="col">Support</th>
-                <th scope="col">Version</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Baremetal</th>
-                <td>✅</td>
-                <td>1.0</td>
-              </tr>
-              <tr>
-                <th scope="row">Docker Container</th>
-                <td>✅</td>
-                <td>1.0</td>
-              </tr>
-              <tr>
-                <th scope="row">Kubernetes Orchestra</th>
-                <td>✅</td>
-                <td>1.0</td>
-              </tr>
-              <tr>
-                <th scope="row">Digital Ocean App Platform</th>
-                <td>✅</td>
-                <td>1.0</td>
-              </tr>
-            </tbody>
-          </table>
-        </details>
+        <h3>Join the next generation of sandboxes.</h3>
+        <p>Sandbox websites are fun. You can do a lot of activities that stimulate a virtual economy and world that keeps you engaged.</p>
+        <p>But, they are difficult to make, and often <a>feature security risks</a>, many users want to create their own communities purely because It's fun. And at <a> Anomia </a>, we agree with that statement.</p>
+        <img style="margin:auto;" src="https://i.pinimg.com/originals/d4/81/63/d481638425eb29ce67c318bd0fba7d91.jpg" alt="A sandbox" />
+        <br />
+        <p class="contrast">We created <strong> Castilla </strong>, an open source sandbox solution, that's actuall <strong> maintained, and secure </strong>.</p>
+        <p>You probably have seen other open source solutions. But they are most likely either <strong>leaks</strong> or <strong>abandoned projects</strong> which are <a>unmaintained</a>.</p>
+        <p><strong>So we asked ourselves. Can we bring something new to the table?</strong></p>
+        <p>And the anwer is, yes. We can. And we're doing that.</p>
+      </article>
+
+      <h4>Presenting Castilla</h4>
+      <details>
+        <summary>We ❤️ Open Source</summary>
+        <p>Castilla is 100% Open Source and released under a MIT Licensed slightly modified.</p>
+      </details>
+      <details>
+        <summary>⚡ Absurdly Fast and Secure</summary>
+        <p>Unlike most sandboxes, Castilla is built around speed and security. Using state-of-the-art technologies like Express & TypeScript for the backend, and lightweight frontend build tools like <kbd>Vite</kbd> with frameworks like <kbd>Svelte</kbd> It's by far the most complete sandbox.</p>
+      </details>
+      <details>
+        <summary>🔌 Plug and Play!</summary>
+        <p>Castilla features an automated installer so you only need to focus in what's important:</p>
+        <p><strong>Bringing a community together.</strong></p>
+        <p>The installer will not only set up the website information but also your database and other important settings.</p>
+      </details>
+      <details>
+        <summary>🔥 No deprecated software</summary>
+        <p>Many sandboxes use <strong>old versions of blender</strong> to make their renderers. This methodology is <strong>slow and outdated</strong>.</p>
+        <p>Castilla renderer instead is a <code>microservice</code> written in <strong>C</strong> using <kbd>RayLib</kbd></p>
+        <p>Blazingly fast and very efficient. [Credits to <strong>Logan</strong> for helping!]</p>
+      </details>
+      <article>
+        <h3>The License</h3>
+        <p>Castilla has a special Open Source license, which is a fork of the original <a>Apache License </a></p>
+        <h5>Using Castilla gives you freedom to:</h5>
+        <ins>
+          <li>Freely modify the software</li>
+          <li>Use the software privately</li>
+          <li>Redistribute the software and host it.</li>
+        </ins>
+        <h5>But we condition you to:</h5>
+        <li><mark>Not to commercialize the software</mark></li>
+        <li><mark>Not to remove the Castilla watermark</mark></li>
+        <li><mark>Always link the original code</mark></li>
+        <li><mark>Always use the Castilla license</mark></li>
+        <li><mark>Credit properly the developers & maintainers of the project.</mark></li>
+        <blockquote>The license is too harsh!</blockquote>
+        <p>I (the creator of the project) understand that some of the users might find the license a <strong>bit too extreme</strong> for an open source project. But the work put into this website is tremendous and most of the developers dont receive enough credit for what they do for free as a contribution for a community.</p>
         <details>
           <summary>What happens if I don't respect the license?</summary>
-          <p>Unlike Bopimo and Vertinner leaks (which are unlicensed), open source software is protected behind a license that acts as a shield. GitHub, Digital Ocean, Cloudflare and many other services most developers use make sure that their clients respect the license of the software hosted too. Specially open source one. If someone is found not respecting the license, it takes 10 minutes to contact and take down a website until it is liable to the conditions listed before. This is not a threat, just a warning since as mentioned above, it's a lot of work to maintain this project...</p>
+          <p>Unlike <strong>Leaks</strong> or <strong>unmaintained projects </strong>, the open-source license ensures that large services (GitHub, DigitalOcean etc...) won't tolerate license disregards and take down any content that's not properly respecting the license listed above.</p>
+          <p>Respect the license, and we're cool!</p>
         </details>
         <details>
-          <summary>Do I need to open source my site to use Castilla?</summary>
-          <p>No need! Castilla is made so you can keep it as private as you want. But always keeping in mind the conditions listed in the license.</p>
+          <summary>Lies we are always told.</summary>
+          <blockquote><strong>If people can see the code they can hack it!</strong></blockquote>
+          <p>Luckily that's no more than a lie, code-security relies, well, in code. It doesnt matter if they can see it or not, if the code is secure, it will be secure.</p>
+          <blockquote><strong>This is just a source of xxxx</strong></blockquote>
+          <p>Sadly a lot of users have lost faith in the Sandbox Community, and I can't really blame them. Projects like this <a>seem unreal because they're too good</a>.</p>
+          <p>Castilla does not run sources, It's all code written by different maintainers who love what they do. From scratch, clearly.</p>
+          <blockquote><strong>You are going to charge for this project and paywall features.</strong></blockquote>
+          <p>Castilla will never be paywalled. Never. It is open source and will always stay like it. I don't plan nor I want to make any money out of this project. It's purely free and open source. Embracing the FOSS freedoms.</p>
+          <blockquote>The freedom to run the program as you wish, for any purpose (freedom 0).</blockquote>
+          <blockquote>The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.</blockquote>
+          <blockquote>The freedom to redistribute copies so you can help others (freedom 2).</blockquote>
+          <blockquote>The freedom to distribute copies of your modified versions to others (freedom 3).</blockquote>
+          <p>By doing this you can give the whole community a chance to benefit from your changes.</p>
         </details>
-        <details>
-          <summary>Why the name?</summary>
-          <p>Castilla is a province in Spain, I find myself living close to it, and like it's name. Thus the project name!</p>
-        </details>
-        <details>
-          <summary>Why are you doing this project?</summary>
-          <p>I'm tired of seeing Bopimo websites getting their data leaked and websites down, It's sad and dangerous for the average user. Who might not be able of seeing how bad the situation is. Since Bopimo is unmaintained, and It's former developers (Firecatmagic etc...) encourage people not to use it, there is no real good <strong> Open Source and Maintained Solution </strong>.</p>
-          <p><a>There are some open source websites</a> but they are completely unmaintained, or the developers don't hold good reputation amongst the community.</p>
-        </details>
-        <details>
-          <summary>More Information</summary>
-          <button>Technical information</button>
-          <button>Project Link</button>
-          <button>Discord Server</button>
-        </details>
-        <dialog>
-          <article>
-            <header>More technical questions!</header>
-
-            <h4><strong>Which stack does Castilla run?</strong></h4>
-            <quote>Castilla runs a Express + Svelte stack along with a C microservice for rendering.</quote>
-          </article>
-        </dialog>
       </article>
     </main>
   </body>
